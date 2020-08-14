@@ -1,0 +1,95 @@
+body{
+	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: #333;
+	background-image: url('bg1.jpg');
+background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.question{
+	font-weight: 600;
+	margin: 20px;
+	display: flex;
+	justify-self: start;
+	color:white;
+	text-shadow: 2px 2px 3px black;
+	font-size: 25px;
+}
+.answers {
+	margin-bottom: 20px;
+
+}
+.blk:hover{
+	background-color: white;
+	box-shadow: 5px 5px 5px plum;
+}
+
+#submit{
+	font-family: sans-serif;
+	font-size: 20px;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#submit:hover{
+	background-color: rgb(183,28,28);
+}
+.main{
+	flex-direction: column;
+	
+}
+.heading{
+	background: rgb(183,28,28);
+background: radial-gradient(circle, rgba(183,28,28,0.8631827731092436) 6%, rgba(34,32,185,0.8855917366946778) 100%);
+	width: 100%;
+}
+#head{
+		font-size: 60px;
+		color: #fff;
+		text-align: center;
+		-webkit-animation: glow 1s ease-in-out infinite alternate;
+		-moz-animation: glow 1s ease-in-out infinite alternate;
+		animation: glow 1s ease-in-out infinite alternate;
+	  }
+	  
+	  @-webkit-keyframes glow {
+		from {
+		  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+		}
+		to {
+		  text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+		}
+	  }
+
+.blk{
+display: list-item;
+list-style-type: none;
+border-radius: 50px;
+background: rgb(58,73,180);
+background: linear-gradient(94deg, rgba(58,73,180,1) 0%, rgba(183,28,28,1) 50%, rgba(183,28,28,0.773546918767507) 100%);
+width: 50%;
+font-size: 20px;
+color: white;
+text-align: justify;
+}
+
+#results{
+	font-size: 70px;
+	text-align: center;
+	color: #fff;
+	animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+	from {
+	  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+	}
+	to {
+	  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6;
+	}
+  }
+
+
